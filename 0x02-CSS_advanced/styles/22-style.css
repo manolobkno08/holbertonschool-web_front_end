@@ -167,6 +167,12 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
+[data-section-theme="dark"] {
+	--text-color: var(--color-white);
+	--section-title-color: var(--color-white);
+	background-color: var(--color-black);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
