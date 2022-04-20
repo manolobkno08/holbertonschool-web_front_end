@@ -1,9 +1,5 @@
 /* set font style */
 
-html {
-	scroll-behavior: smooth;
-}
-
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -15,12 +11,16 @@ html {
 	--font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: var(--text-color);
 	font-family: var(--font-family-base);
 }
 
-.section-title {
+h1, h2, h3, h4, h5, h6 {
 	font-family: var(--font-family-title);
 }
 
