@@ -1,0 +1,6 @@
+/* Loop headers */
+@for $iter from 1 through 5 {
+	h#{$iter} {
+		font-size: $iter + px;
+	}
+}
