@@ -7,14 +7,10 @@ function createClassRoom(numbersOfStudents) {
 
 	let students = [];
 	for (let i = 0; i < numbersOfStudents; i++) {
-		students.push(studentSeat(i + 1));
+		num = i + 1;
+		students.push(studentSeat(num));
 	}
-
 	return students;
 }
 
-function classRoom() {
-	return function () {
-		createClassRoom(10);
-	}
-}
+let classRoom = createClassRoom(10);
